@@ -8,6 +8,11 @@ Using reinforcement learning, create a Snake game-playing agent that will aim to
 
 A project based on reinforcement learning (RL) is focused on creating a Snake game-playing agent. We define the game environment, establish actions, and create a Q-network architecture that facilitates the agent's decisions. The agent's performance can be improved through the use of Deep Q-Learning, experience replay, and training. We aim to balance exploration and exploitation while striving for optimal gameplay. We aim to develop an autonomous agent that can maximize scores without causing collisions by utilizing evaluation and parameter tuning. The endeavor highlights RL's aptitude for handling intricate gaming situations and supports advancements in AI research related to autonomous gameplay.
 
+## Contributors
+
+- Swaraj Gambhir
+- Anmol Khetan
+
 ## Approach
 
 This method employs Deep Q-Learning to train an AI agent for autonomous Snake game play. Actions include up, down, left, or right movements in the grid-based environment. Q-values, approximated by a neural network, guide actions. Experience replay buffers past experiences for efficient training. An epsilon-greedy strategy balances exploration and exploitation. Performance evaluation ensures adept navigation, measuring average score and gameplay, with adjustments for optimal results.
